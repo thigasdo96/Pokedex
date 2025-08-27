@@ -1,0 +1,9 @@
+git config --global user.name thigasdo96
+git config --global user.email primothiago8@gmail.com
+
+dotnet nem gitinore
+
+dotnet new mvc -o Pokedex
+
+
+cd Pokedex

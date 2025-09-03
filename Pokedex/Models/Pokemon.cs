@@ -21,7 +21,7 @@ public class Pokemon
     [Required(ErrorMessage = "Por favor, informe o genero")]
 
     
-    public uint GerneroId { get; set; }
+    public uint GeneroId { get; set; }
     [ForeignKey("GeneroId")]
 
     public Genero Genero { get; set; }
